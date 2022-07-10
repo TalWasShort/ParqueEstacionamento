@@ -14,9 +14,7 @@ public abstract class Estacionamento {
 
 	@Override
 	public String toString() {
-		// Idealmente colocariamos um Unit Test tambem para este metodo.
-		
-		return "Nï¿½ Lugar= " + EstacionamentoId + ", Tipo de Veiculo= " + TipoVeiculo ;
+		return "Nº Lugar= " + EstacionamentoId + ", Tipo de Veiculo= " + TipoVeiculo ;
 	}
 	
 }

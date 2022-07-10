@@ -8,7 +8,7 @@ public class EstacionamentoElectrico extends Estacionamento {
 	//Atributos
 	public double PotenciaAbastecimento;
 	
-	//Mï¿½todos
+	//Métodos
 	
 	public double getPotenciaAbastecimento() {
 		return PotenciaAbastecimento;
@@ -16,12 +16,12 @@ public class EstacionamentoElectrico extends Estacionamento {
 
 	
 	public void IniciarAbastecimento() {
-		// A mangueira ï¿½ destrancada e comeï¿½a a abastecer o veï¿½culo
+		// A mangueira é destrancada e começa a abastecer o veículo
 		
 	}
 	
 	public void FecharAbastecimento() {
-		//O abastecimento pï¿½ra e a mangueira ï¿½ trancada
+		//O abastecimento pára e a mangueira é trancada
 	}
 
 	//Construtor
@@ -35,9 +35,6 @@ public class EstacionamentoElectrico extends Estacionamento {
 		
 	}
 	public EstacionamentoElectrico( int estacionamentoId, double potenciaAbastecimento) {
-		// Este construtor nÃ£o tem um proposito concreto, nÃ£o afecta a avaliaÃ§Ã£o.
-		// Mas idealmente deveria apontar para o inicial o simples apontar para este. 
-		
 		super(estacionamentoId);
 		this.TipoVeiculo= TipoVeiculo.Electrico;
 		this.PotenciaAbastecimento= potenciaAbastecimento;
